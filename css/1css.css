@@ -1,0 +1,54 @@
+body {
+	background-color: #3BB9FF;
+    font-size: 30px;
+	font-family: arial;
+}
+
+.testo {
+ color: white;
+ margin: 10px 5px 0px 5px;
+ text-align: center;
+}
+
+.testo1 {
+ color: white;
+ margin: 10px 5px 0px 5px;
+ text-align: center;
+}
+
+#contenitore_vuoto {
+ /*border: 1px solid white;*/
+ margin: 20px 50px 20px 50px;
+ padding: 20px 20px 20px 20px;
+ border-radius: 5px;
+}
+
+#contenitore_pieno {
+ border: 1px solid white;
+ margin: 20px 20px 20px 20px;
+ padding: 20px 20px 20px 20px;
+ border-radius: 5px;
+ background-color: #3BB9FF;
+}
+
+#left{
+	float: left;
+	width: 300px;
+	border-style: 1px solid black;
+}
+#right {
+	width: 300px;
+	border-style: 1px solid black;
+}
+
+
+#corpo{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background-image: url(http://www.picenotime.it/uploads/grandi/1540841031117235.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
